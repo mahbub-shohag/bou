@@ -118,7 +118,7 @@ $( "#btn" ).on('click',function(event){
       //var url = $('#report_for :selected').attr('data-url');
     $.ajax({
            type: "GET",
-           url: 'learners_list.php',
+           url: 'learners_list_without_header.php',
            data: {'new_registration_id_from':new_registration_id_from,'new_registration_id_to':new_registration_id_to},
            //dataType: "json",
            success: function(data){
